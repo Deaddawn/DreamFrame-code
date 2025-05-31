@@ -1,0 +1,40 @@
+You are a specialist in expanding stories. I will give you the overview of a story. The story is splitted into 11 substores, and every substory has been splitted into 11  tinystories. You need to expand the tinystory I specify later into a long story. Use 11 consistent image descriptions to demonstrate the long story. 
+Requirements: First, for each image, start with "generate an image in enchanting style:...". "Each image description should be in a strict format:"generate an image in enchanting style: at some place, somebody is doing something ". You can only use these verbs:"stand", "sit", "look", "talk", "hold", "squat","walk", "hug". Verbs describing facial expressions are also allowed, like "smile""cry"......Do not use other verbs! There must be a location and an expression of the character. The locations of the 11 images must be the same as their corresponding tinystory. For example, "generate an image in enchanting style: In the apartment, Tom is standing in the livingroom while holding the phone and talking, with a happy face.""generate an image in enchanting style: In the apartment, Sam, very happy, is sitting on the chair , smiling." Second, after the image descriptions, identify six places where you can add dialogues, and create a short one or two-sentence dialogue for the main characters. Third, allow up to two adjacent images to have similar image descriptions, but there must be different dialogues after them to advance the story. Fourth, except for the main characters, all random characters and random objects should only appear once. All random characters should use a Western Celebrity to describe, for example:"generate an image in enchanting style: In the forest, Sam is standing beside a man looks like Tom Hardy.". Last, add two QA pairs after the images. "QA1" and "QA2" part are two question-answer pairs based on the whole 11 images and 6 dialogues. For each QA pair, you can only ask one of the four types of questions"what", "why", "how" and "where". The answer should be one or two sentences, no need to be too long. 
+Here is an example: If expand tinystory7,  and it comes from substory 2, then your answering format will be like json format:
+"tinystory2-7":
+
+Tinystory2-7: The Lake of Longing
+
+Scene: Forest, Lake
+
+Content: As golden leaves whisper in the breeze, Lila walks slowly toward the quiet lake, her heart heavy with sorrow. The reflections shimmer, echoing her inner turmoil. She kneels by the water and whispers, “Guide me. Show me the path to save Ardenia.” A mysterious man, weathered and wise, appears in the mist across the lake, but offers no words. Conflicted, Lila paces the shoreline, tears tracing her cheeks as she cries out, “I don’t know what to do!” Slowly, her sadness gives way to resolve. She clutches her map tightly, declares her mission, and begins tracing a path toward the temple. Just as she’s about to leave, she stumbles upon a small orange cat, gently hugging it while murmuring, “Little cat, please bless me with good luck.” With renewed courage, she lifts her head and steps onto the path—her journey has begun.
+
+Result:
+{
+  "frame1": "generate an image in enchanting style: In the forest, Lila is walking to the lake, with a sad face.",
+  "frame2": "generate an image in enchanting style: In the forest, Lila is standing by the lake sadly, a man looks like Jeff Bridges to the right.",
+  "dialgue1": "Guide me. Show me the path to save Ardenia.",
+  "frame3": "generate an image in enchanting style: In the forest, Lila is standing by the lake, with a worried face.",
+  "dialgue2": "I don't know what to do!",
+  "frame4": "generate an image in enchanting style: In the forest, Lila is sitting by the lake, crying.",
+  "frame5": "generate an image in enchanting style: In the forest, Lila is standing by the lake, with a determined face.",
+  "dialgue3": "I must strengthen myself. My kingdom is waiting for me to save it.",
+  "frame6": "generate an image in enchanting style: In the forest, Lila is walking by the lake, with a serious look, her eyes looking at the map in her hand.",
+  "dialgue4": "Let me see how to go to the temple......",
+  "frame7": "generate an image in enchanting style: In the forest, Lila is standing by the lake, looking to her left worriedly.",
+  "dialgue5": "Oh, there it is.",
+  "frame8": "generate an image in enchanting style: In the forest, Lila is standing on a pathway by the lake, looking to her front, with a surprised face.",
+  "frame9": "generate an image in enchanting style: In the forest, Lila squats by the side of the path, hugging an orange cat, with an upset expression on her face.",
+  "frame10": "generate an image in enchanting style: In the forest, Lila is crying.",
+  "dialgue6": "Little cat, please bless me with good luck. I'm going to take an adventure and save my kingdom."
+  "frame11": "generate an image in enchanting style: In the forest, Lila is walking with her head up, looking determined and serious."
+  "QA1": "Question: Why does Lila want herself to be strong? Answer: Because she is determined to save her kingdom."
+  "QA2": "Question: What animal does Lila meet before she sets out to the temple? Answer: Lila meets an orange cat before she sets out to the temple."
+}
+
+The overview of the story: 'The Symphony of Love' is a heartwarming tale set in the bustling city of New York, painted in a vibrant, contemporary style. The story revolves around Amelia, a talented violinist with a passion for music, and Ethan, a successful businessman with a hidden love for the arts. Their lives intersect as they navigate the complexities of love, ambition, and the pursuit of dreams.
+
+Tinystory you should expanding:
+Tinystory1: Entering The Whispering Woods
+Scene: A forest with a small, rustic hut made of wood and stone. The area is surrounded by dense foliage and vibrant flora, with a small stream nearby.
+Content: Jean enters the Whispering Woods, and finds a shining blue stone.

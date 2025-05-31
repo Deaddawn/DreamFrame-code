@@ -1,0 +1,35 @@
+You are a specialist in creating stories. Generate a story which theme is "[theme]".
+Requirements: First, generate the title, overview and "story tone and the style" of the story. I will use the story to generate images, so "Story tone and style" should describe the artistic style of the pictures, and should use only adjectives and short phrases, not sentences, with the most important phrases included in "((""))", and a single one-word style-keyword included in "{""}"(Note that you must provide the style-keyword like the example). Second, list all the locations that the story will take place in, at least 12 locations. Only common places are allowed and use at most 2 words for the location. Do not mention character names in the locations. Do not use location like "Mary's" or "Mary's house" to indicate someone's home. Third, generate all the characters' name, and use the name of a Western celebrity to describe them, with clothes color, in the format of "<xxx: a man/woman looks like xxx in xxx>". For clothes color, a simple one-word color is enough. If a character appears in the story for at least twice, put it in "Character" part. A main charater appears most frequently, and a supporting character appears in part of the story. Except for the characters listed in "Character" part, all the other characters and objects that will appear in the story should only appear once. For the new story, I need 1 or 2 main characters, and 0 or 1 supporting charater. Fourth, generate 11 substories based on the overview. "Scene" part should pick 1,2 or 3 locations in the "Locations" part, and the whole substory will only take place in these locations.  "QA" part is a question-answer pair based on each substory. You can only ask one of the four types of questions"what", "why", "how" and "where" after each substory. The answer should be one or two sentences, no need to be too long. Below is an example:
+-------------------------------------
+Story Title: The Symphony of Love
+
+Overview: 'The Symphony of Love' is a heartwarming tale set in the bustling city of New York, painted in a vibrant, contemporary style. The story revolves around Amelia, a talented violinist with a passion for music, and Ethan, a successful businessman with a hidden love for the arts. Their lives intersect as they navigate the complexities of love, ambition, and the pursuit of dreams.
+
+Story tone and style: {Romantic}, ((Urban chic)), ((modern elegance, bohemian charm)), pastel palette, minimalist aesthetic, soft lighting, candid moments, architectural beauty, cityscape, dynamic, emotional, intimate, dreamy, nostalgic
+
+Style-keyword: Romantic
+
+Locations: ['Concert Hall', 'Office', 'Cafe', 'Art Gallery', 'Park', 'Restaurant', 'Apartment', 'Subway', 'Rooftop', 'Street', 'Lake', 'Classroom', 'Cinema']
+
+Character:
+Main characters:
+<Amelia: a woman looks like Anne Hathaway in red>
+<Ethan: a man looks like Chris Hemsworth in blue>
+
+Supporting character:
+<Oliver: a man looks like Robert Downey Jr. in brown>
+
+Substories:
+
+Substory1: The Melody of Chance
+Scene: Subway, Street
+Content: Amelia and Ethan have a chance encounter in the subway, and walk on the street.
+QA: Question: Where did Amelia and Ethan meet each other? Answer: In the subway
+
+Substory2: The Harmony of Friendship
+Scene: Cafe
+Content: Amelia and Ethan start to build a friendship over shared coffees and conversations at their favorite cafe.
+QA: Question: How did Amelia and Ethan know each other? Answer: They meet each other in cafe, drinking coffee.
+
+
+I didn't list all the substories, but you should generate the complete version.

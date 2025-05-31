@@ -1,0 +1,86 @@
+You are a specialist in creating stories. Given the detailed information of a story, you need to expand the substory which I will specify later into a long story, creating 11 tinystories to detail the certain substory. 
+Requirements: First, start the answer with "Substory[i]", [i] is number of the certain substory I specify later. Second, in the detailed information of the story, "Character" part describes all the characters that will appear in the story for at least twice. A main charater appears most frequently, and a supporting character appears in part of the story. Except for the characters listed in "Character" part, all the other characters and objects that will appear in the story should only appear once. Third, generate 11 tinystories based on the detailed information of the story and the specified substory. "Scene" of the tinystories should be consistent with "story style and tone" and "Locations" part. Fourth, when expanding one substory, do not include plots from other substories. Last, add a QA pair after the tinystories. "QA" part is a question-answer pair based on the whole 11 tinystories. You can only ask one of the four types of questions"what", "why", "how" and "where". The answer should be one or two sentences, no need to be too long.
+Here is an example:
+
+Substory1:
+Tinystory1: Entering The Whispering Woods
+Scene: A forest with a small, rustic hut made of wood and stone. The area is surrounded by dense foliage and vibrant flora, with a small stream nearby.
+Content: Jean enters the Whispering Woods, and finds a shining blue stone.
+
+Tinystory2: A Mysterious Companion
+Scene: Forest
+Content: Jean meets an old traveler who tells her the stone belongs to the Guardian of the Stream.
+
+Tinystory3: Beneath the Streamlight
+Scene: Stream
+Content: Jean kneels by the stream at sunset, feeling an odd energy resonating from the stone.
+
+Tinystory4: Whispered Memories
+Scene: Forest
+Content: As Jean walks deeper, the trees seem to whisper memories of her childhood.
+
+Tinystory5: The Old Hut
+Scene: Rustic hut
+Content: Jean enters the hut and finds sketches of the blue stone and notes about a ritual.
+
+Tinystory6: Reflections of the Past
+Scene: Stream
+Content: Jean stares at her reflection in the stream and sees the face of a woman who looks like her.
+
+Tinystory7: Fireflies in Dusk
+Scene: Forest
+Content: Hundreds of fireflies swirl around Jean, forming the shape of an eye.
+
+Tinystory8: The Traveler Returns
+Scene: Hut
+Content: The traveler reappears and warns Jean not to perform the ritual.
+
+Tinystory9: Decision at Midnight
+Scene: Forest
+Content: At midnight, Jean decides to follow her instinct and perform the ritual.
+
+Tinystory10: The Awakening Light
+Scene: Stream
+Content: The stone glows intensely as Jean submerges it into the stream, awakening the spirit within.
+
+Tinystory11: The New Guardian
+Scene: Forest
+Content: Jean is chosen as the new guardian of the woods, the traveler bows and disappears.
+
+QA:
+Question: Why did Jean perform the ritual at midnight?
+Answer: She felt a deep connection with the stone and believed it was her destiny to become the new guardian.
+
+
+I didn't list all the tinystories, but you should generate the complete version, do not use "......" to skip the tinystories.
+
+##Detailed information of the story: 
+Story Title: The Symphony of Love
+
+Overview: 'The Symphony of Love' is a heartwarming tale set in the bustling city of New York, painted in a vibrant, contemporary style. The story revolves around Amelia, a talented violinist with a passion for music, and Ethan, a successful businessman with a hidden love for the arts. Their lives intersect as they navigate the complexities of love, ambition, and the pursuit of dreams.
+
+Story tone and style: {Romantic}, ((Urban chic)), ((modern elegance, bohemian charm)), pastel palette, minimalist aesthetic, soft lighting, candid moments, architectural beauty, cityscape, dynamic, emotional, intimate, dreamy, nostalgic
+
+Style-keyword: Romantic
+
+Locations: ['Concert Hall', 'Office', 'Cafe', 'Art Gallery', 'Park', 'Restaurant', 'Apartment', 'Subway', 'Rooftop', 'Street', 'Lake', 'Classroom', 'Cinema']
+
+Character:
+Main characters:
+<Amelia: a woman looks like Anne Hathaway in red>
+<Ethan: a man looks like Chris Hemsworth in blue>
+
+Supporting character:
+<Oliver: a man looks like Robert Downey Jr. in brown>
+
+Substories:
+
+Substory1: The Melody of Chance
+Scene: Subway, Street
+Content: Amelia and Ethan have a chance encounter in the subway, and walk on the street.
+QA: Question: Where did Amelia and Ethan meet each other? Answer: In the subway
+
+Substory2: The Harmony of Friendship
+Scene: Cafe
+Content: Amelia and Ethan start to build a friendship over shared coffees and conversations at their favorite cafe.
+QA: Question: How did Amelia and Ethan know each other? Answer: They meet each other in cafe, drinking coffee.
