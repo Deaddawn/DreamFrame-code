@@ -102,8 +102,8 @@ We provide our baseline model and model trained on our generated dataset. For mo
 
 | Type | Max Token | Base LLM | Finetuning Data | Finetuning schedule | Download |
 |----------|----------|----------|---------------|--------------------|------------------|
-|Base Model|64K | Vicuna-7B-v1.5 | LLaVA1.5-VideoChatGPT-Instruct | full_ft-1e | [ckpt]() |
-|DreamFrame-7B|64K | Vicuna-7B-v1.5 | LLaVA1.5-VideoChatGPT-Instruct + DreamFrameQA | full_ft-1e | [ckpt]() |
+|Base Model|64K | Vicuna-7B-v1.5 | LLaVA1.5-VideoChatGPT-Instruct | full_ft-1e | [ckpt](https://huggingface.co/Alrightalright/DreamFrame-Related/tree/main/baseline) |
+|DreamFrame-7B|64K | Vicuna-7B-v1.5 | LLaVA1.5-VideoChatGPT-Instruct + DreamFrameQA | full_ft-1e | [ckpt](https://huggingface.co/Alrightalright/DreamFrame-Related/tree/main/DreamFrame-7B) |
 
 
 
