@@ -18,14 +18,14 @@ Automatically Generated QA and Style-Consistent Keyframes</h2>
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=gsLd2ccAAAAJ"><strong>Jiayuan Fan✦</strong></a>
     ·
     <a href="https://eetchen.github.io/"><strong>Tao Chen</strong></a>
-    <!-- <br>
+    <br>
     (✦ Corresponding Author )
     <br>
-    From Fudan University and Tencent PCG -->
+    From Fudan University and Tencent PCG
     <br>
     </br>
-        <!-- <a href="https://arxiv.org/abs/2403.01422">
-        <img src='https://img.shields.io/badge/arxiv-MovieLLM-b31b1b.svg' alt='Paper PDF'></a> -->
+        <a href="https://arxiv.org/abs/2403.01422">
+        <img src='https://img.shields.io/badge/arxiv-DreamFrame-b31b1b.svg' alt='Paper PDF'></a>
         <a href="https://deaddawn.github.io/DreamFrame/">
         <img src='https://img.shields.io/badge/Project-Website-green' alt='Project Page'></a>
   </p>
